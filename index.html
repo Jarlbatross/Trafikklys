@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trafikklys</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="startTrafficLight()">
+    <div id="lights">
+      <div id="redLight" class="red circle"></div>
+      <div id="yellowLight" class="yellow circle"></div>
+      <div id="greenLight" class="green circle"></div>
+    </div>
+
+    <button
+      class="buttons"
+      onclick="setColor('greenLight','yellowLight','redLight')"
+    >
+      rødt lys
+    </button>
+    <button
+      class="buttons"
+      onclick="setColor('greenLight','redLight','yellowLight')"
+    >
+      gult lys
+    </button>
+    <button
+      class="buttons"
+      onclick="setColor('redLight','yellowLight','greenLight')"
+    >
+      grønt lys
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

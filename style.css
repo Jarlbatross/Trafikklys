@@ -1,0 +1,41 @@
+#lights {
+    width: 210px;
+    height: 700px;
+    background-color: #4e4c4c;
+    border-radius: 5em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+  }
+
+  .red {
+    background-color: red;
+    opacity: 10%;
+  }
+
+  .yellow {
+    background-color: yellow;
+    opacity: 10%;
+  }
+
+  .green {
+    background-color: green;
+    opacity: 10%;
+  }
+  .circle {
+    box-shadow: -5px 10px 20px 10px black inset;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .active {
+    opacity: 100%;
+  }
+
+  .buttons {
+    margin: 10px;
+    background-color: #55c2da;
+  }
